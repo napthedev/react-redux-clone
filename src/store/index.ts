@@ -1,11 +1,11 @@
 export const countReducer = (
   state = { value: 0 },
-  action: { type: "INCREMENT" | "DECREMENT"; payload?: number }
+  action: { type: "increment" | "decrement"; payload?: number }
 ) => {
   switch (action.type) {
-    case "INCREMENT":
+    case "increment":
       return { value: state.value + (action.payload || 1) };
-    case "DECREMENT":
+    case "decrement":
       return { value: state.value - (action.payload || 1) };
     default:
       return state;

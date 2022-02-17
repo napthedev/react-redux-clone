@@ -10,7 +10,7 @@ const App: FC = () => {
       </p>
       <View />
 
-      <p style={{ marginTop: 20 }}>
+      <p>
         <strong>Controls</strong> component
       </p>
       <Controls />
